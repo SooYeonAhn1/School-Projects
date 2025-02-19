@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="mnist.js">
+      console.log("inside");
+    </script>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/addons/p5.dom.js"></script>
+    <script src="libraries/addons/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <script src="strokedrawer.js"></script>
+    <style> body {padding: 10; margin: 10;} </style>
+  </head>
+  <body>
+    <h1>Single File Upload</h1>
+    <form action="/mlmodel" method="POST" enctype="multipart/form-data">
+        <input type="file"  name="avatar">
+        <button>Predict</button>
+    </form>
+  </body>
+</html>

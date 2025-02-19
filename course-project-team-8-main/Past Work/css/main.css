@@ -1,0 +1,30 @@
+body, html {
+    margin: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    height: 5px;
+}
+
+td {
+    text-align: center;
+    padding: 3px;
+}
+.form {
+    margin-top: 25px;
+}
+
+#content {
+    width: 60%;
+}
